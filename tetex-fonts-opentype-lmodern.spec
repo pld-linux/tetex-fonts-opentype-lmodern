@@ -8,6 +8,7 @@ Group:		Fonts
 Source0:	http://www.gust.org.pl/projects/e-foundry/latin-modern/download/lm%{version}x-otf.zip
 # Source0-md5:	eeb4573b52367fc361394d7540323877
 URL:		http://www.gust.org.pl/projects/e-foundry/latin-modern/
+BuildRequires:	unzip
 Requires(post,postun):	tetex
 Requires:	tetex
 Requires:	tetex-dirs-fonts >= 1:3.0-5
